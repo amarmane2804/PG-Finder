@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bone"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:id="@+id/ll12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/ll13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image3"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image1"
+                                app:srcCompat="@drawable/image3" />
+
+                            <ImageView
+                                android:id="@+id/image4"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image2"
+                                app:srcCompat="@drawable/image4" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/txtheading1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/ashish_hostel"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txtoccupancy1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/boys"
+                        android:textColor="#888888"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtaddress1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/near_breaks_factory_baif_road_wagholi_pune_412207"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtpricing1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/_2500rs_month"
+                        android:textColor="#888888" />
+
+                    <Button
+                        android:id="@+id/viewdetails1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/view_details" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:id="@+id/ll22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/ll23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image1"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image1"
+                                app:srcCompat="@drawable/image1" />
+
+                            <ImageView
+                                android:id="@+id/image2"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image2"
+                                app:srcCompat="@drawable/image2" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/txtheading2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/jai_ganga_hostel"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txtoccupancy2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/both"
+                        android:textColor="#888888"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtaddress2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/near_idbi_bank_baif_road_wagholi_pune_412207"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtpricing2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/_3000rs_month"
+                        android:textColor="#888888" />
+
+                    <Button
+                        android:id="@+id/viewdetails2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/view_details" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:id="@+id/ll32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/ll33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/image5"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image1"
+                                app:srcCompat="@drawable/image5" />
+
+                            <ImageView
+                                android:id="@+id/image6"
+                                android:layout_width="350dp"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                android:contentDescription="image2"
+                                app:srcCompat="@drawable/image6" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/txtheading3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/chandrabhaga_hostel"
+                        android:textColor="@color/black"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/txtoccupancy3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/girls"
+                        android:textColor="#888888"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtaddress3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/near_moze_college_baif_road_wagholi_pune_412207"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtpricing3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="@string/_2500rs_month"
+                        android:textColor="#888888" />
+
+                    <Button
+                        android:id="@+id/viewdetails3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/view_details" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

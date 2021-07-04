@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "481089138579",
+    "project_id": "pg-finder-39331",
+    "storage_bucket": "pg-finder-39331.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481089138579:android:2097e63c81ecba60f9c266",
+        "android_client_info": {
+          "package_name": "com.amarmane.pgfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481089138579-ffi5pk1peuj12kfqqld8r402j56033qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtubGF-vziU5_aCaqfS6AOBh2a2FeLl_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481089138579-ffi5pk1peuj12kfqqld8r402j56033qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

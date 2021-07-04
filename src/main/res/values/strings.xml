@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PG Finder</string>
+
+    <string name="ashish_hostel">Ashish Hostel</string>
+    <string name="_2500rs_month">2500Rs/month</string>
+    <string name="view_details">View Details</string>
+    <string name="near_breaks_factory_baif_road_wagholi_pune_412207">Near Breaks Factory, Baif Road, Wagholi, Pune-412207</string>
+    <string name="boys">Boys</string>
+
+    <string name="jai_ganga_hostel">Jai Ganga Hostel</string>
+    <string name="_3000rs_month">3000Rs/month</string>
+    <string name="view_details2">View Details</string>
+    <string name="near_idbi_bank_baif_road_wagholi_pune_412207">Near IDBI Bank, Baif Road, Wagholi, Pune-412207</string>
+    <string name="both">Both</string>
+
+    <string name="chandrabhaga_hostel">Chandrabhaga Hostel</string>
+    <string name="_2500rs_month_">2500Rs/month</string>
+    <string name="view_details3">View Details</string>
+    <string name="near_moze_college_baif_road_wagholi_pune_412207">Near Moze College, Baif Road, Wagholi, Pune-412207</string>
+    <string name="girls">Girls</string>
+
+</resources>
